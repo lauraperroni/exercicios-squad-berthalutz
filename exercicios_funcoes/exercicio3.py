@@ -5,6 +5,8 @@ cada opção, crie uma função
 
 Plus: Crie uma terceira, que é um menu para o usuário escolher a opção
 desejada, onde esse menu chama a função de conversão correta.
+
+Responsável: Laura Perroni Quadros da Silva
 '''
 
 grau = input('Você quer converter Fahrenheit para Celsius (FC) ou Celsius para Fahrenheit (CF)?')

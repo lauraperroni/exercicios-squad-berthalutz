@@ -1,4 +1,0 @@
-'''
-Responsável: Claudia Azambuja
- 
-'''
