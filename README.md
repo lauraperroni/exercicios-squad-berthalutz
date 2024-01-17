@@ -29,3 +29,49 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
     * Cuidado! Antes de fazer git add, commit e push verifique se você está na branch ExerciciosPython_SquadBerthaLutz !!! se não, use: (git checkout ExerciciosPython_SquadBerthaLutz)
     * Após fazer git push pro seu fork, crie uma pull request para o repositório que eu criei, e eu irei fazer o merge para ele com suas alterações. 🙂
 * Cada arquivo .py contém a proposta da atividade e a aluna responsável pela resolução.
+
+### Divisão de tarefas:
+
+#### Divisão de atividades**
+
+**Exercicios do modulo 1- conceitos basicos:**
+* Exercicio 1 - Carme
+* Exercicio 2- Mariana
+* Exercicio 3 - Elizabeth
+* Exercicio 4 -
+* Exercicio 5 - Raissa
+* Exercicio 6 -
+* Exercicio 7- Laura
+* Exercicio 8 - claudia
+* Exercicio 9 -
+* Exercicio 10 -
+
+**Modulo 2- exercícios tomadas de decisão:**
+* Exercicio 1 - Carme
+* Exercicio 2- Mariana
+* Exercicio 3 -
+* Exercicio 4 -
+* Exercicio 5 - Raissa
+* Exercicio 6 -
+* Exercicio 7 -
+* Exercicio 8 - Claudia
+* Exercicio 9 - Laura
+* Exercicio 10 -
+
+**Modulo 3- tuplas, duplas e dicionários:**
+* Exercício 1- Laura
+* Exercicio 2 - Claudia
+* Exercício 3- Mariana
+* Exercicio 4 - Carme
+* Exercicio 5 - Raissa
+
+**Modulo 4- Funções**
+* Exercicio 1- Mariana
+* Exercicio 2 - Claudia
+* Exercicio 3 - Laura
+* Exercicio 4 - Carme
+* Exercicio 5 - Raissa
+* Exercicio 6- Laura
+
+
+OBS: quando forem escolher os exercícios de vocês copiem essa lista e adicionem o nome aí essa lista estará sempre atualizada
