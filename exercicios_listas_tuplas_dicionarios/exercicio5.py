@@ -1,4 +1,5 @@
 '''
- Crie duas tuplas. Concatene-as para formar uma nova tupla.
+ Crie duas tuplas. Concatene-as para formar uma nova tupla
 
+ Responsável: Raissa
 '''
