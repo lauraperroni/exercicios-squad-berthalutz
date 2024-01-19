@@ -25,7 +25,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 
     * Abrir o repositório https://github.com/lauraperroni/exercicios-squad-berthalutz e fazer um fork dele em sua conta
     * Fazer um clone do seu fork para o repositório local de seu pc
-    * Gazer as atividades combinadas entre nós em seu computador
+    * Fazer as atividades combinadas entre nós em seu computador
     * Cuidado! Antes de fazer git add, commit e push verifique se você está na branch ExerciciosPython_SquadBerthaLutz !!! se não, use: (git checkout ExerciciosPython_SquadBerthaLutz)
     * Após fazer git push pro seu fork, crie uma pull request para o repositório que eu criei, e eu irei fazer o merge para ele com suas alterações. 🙂
 * Cada arquivo .py contém a proposta da atividade e a aluna responsável pela resolução.
@@ -44,7 +44,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 * Exercicio 7- Laura
 * Exercicio 8 - claudia
 * Exercicio 9 -
-* Exercicio 10 -
+* Exercicio 10 - Vivian Rosana 
 
 **Modulo 2- exercícios tomadas de decisão:**
 * Exercicio 1 - Carme
@@ -53,7 +53,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 * Exercicio 4 -
 * Exercicio 5 - Raissa
 * Exercicio 6 - Leidejane
-* Exercicio 7 -
+* Exercicio 7 - Vivian Rosana
 * Exercicio 8 - Claudia
 * Exercicio 9 - Laura
 * Exercicio 10 -
