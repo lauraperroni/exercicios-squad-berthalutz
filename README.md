@@ -49,7 +49,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 **Modulo 2- exercícios tomadas de decisão:**
 * Exercicio 1 - Carme
 * Exercicio 2- Mariana
-* Exercicio 3 -
+* Exercicio 3 -Elizabeth 
 * Exercicio 4 -
 * Exercicio 5 - Raissa
 * Exercicio 6 - Leidejane
