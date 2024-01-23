@@ -38,7 +38,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 * Exercicio 1 - Carme
 * Exercicio 2- Mariana
 * Exercicio 3 - Elizabeth
-* Exercicio 4 -
+* Exercicio 4 - Gabriela
 * Exercicio 5 - Raissa
 * Exercicio 6 - Leidejane
 * Exercicio 7- Laura
@@ -50,7 +50,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 * Exercicio 1 - Carme
 * Exercicio 2- Mariana
 * Exercicio 3 -Elizabeth 
-* Exercicio 4 -
+* Exercicio 4 - Gabriela
 * Exercicio 5 - Raissa
 * Exercicio 6 - Leidejane
 * Exercicio 7 - Vivian Rosana
