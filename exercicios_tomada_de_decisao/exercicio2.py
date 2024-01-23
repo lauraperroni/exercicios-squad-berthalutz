@@ -1,16 +1,22 @@
-'''
- Faça um Programa que pergunte em que turno você estuda. Peça para
-digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom
-Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
+while True:
+    print("Informe o turno que você estuda:")
+    print("M - matutino")
+    print("V - vespertino")
+    print("N - noturno")
 
-Responsável: Mariana Choratto
-'''
-resposta = input('Em que turno você estuda? \n Digite M para Matutino. \n Digite V para vespertino. \n Ou N para noturno.').upper()
+    turno = input("Digite a opção: ")
 
+    if turno.upper() == 'M':
+        print("Bom Dia!")
+    elif turno.upper() == 'V':
+        print("Boa Tarde!")
+    elif turno.upper() == 'N':
+        print("Boa Noite!")
+    else:
+        print("Valor Inválido!")
 
-if resposta == "M": 
-    print("Bom dia!")
-elif resposta == "V":
-    print('Boa Tarde!')
-else:
-    print('Boa noite!')
+    continuar = input("Deseja informar outro turno? (s/n): ")
+
+    if continuar.lower() != 's':
+        print("Até logo!")
+        break
