@@ -9,7 +9,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 * Claudia Azambuja
 * Mariana Choratto
 * Vivian Rosana Carrillo Cuentas
-* Erika Alves
+* Erika Alves Malaquias 
 * Raissa Carneiro
 * Leidejane Da Silva Nascimento Da Rosa
 * Gabriela Sampaio Da Silva
@@ -43,7 +43,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 * Exercicio 6 - Leidejane
 * Exercicio 7- Laura
 * Exercicio 8 - claudia
-* Exercicio 9 -
+* Exercicio 9 - Erika
 * Exercicio 10 - Vivian Rosana 
 
 **Modulo 2- exercícios tomadas de decisão:**
@@ -56,7 +56,7 @@ Este repositório contém todos os 10 exercícios de python da semana 4 resolvid
 * Exercicio 7 - Vivian Rosana
 * Exercicio 8 - Claudia
 * Exercicio 9 - Laura
-* Exercicio 10 -
+* Exercicio 10 - Erika
 
 **Modulo 3- tuplas, duplas e dicionários:**
 * Exercício 1- Laura
