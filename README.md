@@ -38,7 +38,7 @@ Este repositório contém todos os exercícios de python da semana 4 resolvidos 
 * Exercicio 1 - Carme
 * Exercicio 2- Mariana
 * Exercicio 3 - Elizabeth
-* Exercicio 4 -
+* Exercicio 4 - Gabriela
 * Exercicio 5 - Raissa
 * Exercicio 6 - Leidejane
 * Exercicio 7- Laura
@@ -48,9 +48,9 @@ Este repositório contém todos os exercícios de python da semana 4 resolvidos 
 
 **Modulo 2- exercícios tomadas de decisão:**
 * Exercicio 1 - Carme
-* Exercicio 2- Mariana
+* Exercicio 2- Adriana
 * Exercicio 3 -Elizabeth 
-* Exercicio 4 -
+* Exercicio 4 - Gabriela
 * Exercicio 5 - Raissa
 * Exercicio 6 - Leidejane
 * Exercicio 7 - Vivian Rosana
@@ -71,7 +71,7 @@ Este repositório contém todos os exercícios de python da semana 4 resolvidos 
 * Exercicio 2 - Claudia
 * Exercicio 3 - Laura
 * Exercicio 4 - Carme
-* Exercicio 5 - 
+* Exercicio 5 - Adriana
 * Exercicio 6- Laura
 
 
