@@ -10,6 +10,7 @@ n3 = int(input("insira o terceiro número: "))
 
 listaNum = [n1, n2, n3]
 
+
 listaNum.sort()
 print("Números em ordem crescente:", listaNum[0], listaNum[1], listaNum[2])      
 

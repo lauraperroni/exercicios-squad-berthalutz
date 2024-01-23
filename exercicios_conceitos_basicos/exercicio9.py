@@ -6,6 +6,7 @@ média de 5 calorias por minuto de exercício.
 Responsável: Erika Alves Malaquias Silva
 '''
 
+
 horasSem = int(input("Quantas horas de exercicio físico você faz por semana?"))
 calHora = 300
 calSem = calHora * horasSem
