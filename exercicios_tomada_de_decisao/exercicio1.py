@@ -1,5 +1,7 @@
 '''
 Faça um Programa que peça dois números e imprima o maior deles.
+
+Responsável: Carme Leticia
 '''
 numero1 = int(input('Digite seu primeiro número: '))
 
