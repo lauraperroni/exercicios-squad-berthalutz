@@ -1,5 +1,7 @@
 '''
  Faça um Programa que peça dois números, realize as principais operações soma, subtração, multiplicação, divisão 
+
+ Responsável: Carme Leticia
 '''
 numero1 = int(input('Digite o primeiro número: '))
 numero2 = int(input('Digite o segundo número: '))
