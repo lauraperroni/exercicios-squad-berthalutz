@@ -1,14 +1,17 @@
 '''
 Faça um programa, com uma função que necessite de três
 argumentos, e que forneça a soma desses três argumentos.
+
+Responsável: Mariana Choratto
 '''
 
-num1 = int(input('Digite o primeiro número: '))
-num2 = int(input('Digite o segundo número: '))
-num3 = int(input('Digite o terceiro número: '))
+numero1 = int(input("Vamos digitar 3 numeros. \n Digite o primeiro número: "))
+numero2 = int(input(" Digite o segundo número: "))
+numero3 = int(input("Digite o terceiro número: "))
 
-def soma(num1, num2, num3) :
-    calc = num1 + num2 + num3
-    print(f'O resultado da soma é: {calc}')
+def soma(numero1, numero2, numero3):
+    calculo = numero1 + numero2 + numero3
+    return calculo
 
-soma(num1, num2, num3)
+resultado = soma(numero1, numero2, numero3)
+print(f'O resultado da soma é {resultado}.')
