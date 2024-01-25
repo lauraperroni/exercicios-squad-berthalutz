@@ -4,6 +4,7 @@ a distância percorrida. Calcule e imprima o consumo médio em km/l.
 
 Responsável: Gabriela Sampaio da Silva
 '''
+
 print ('Olá, novo usuário.')
 print ('Neste exercício vamos calcular o seu consumo médio de combustível por quilometro rodado.')
 

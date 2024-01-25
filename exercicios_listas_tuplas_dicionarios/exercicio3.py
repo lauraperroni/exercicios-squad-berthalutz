@@ -5,6 +5,7 @@ Calcule o total do carrinho de compra.
 
 Responsável: Mariana Choratto
 '''
+
 lista_de_compras = {
     'arroz': 26,
     'feijao': 12,

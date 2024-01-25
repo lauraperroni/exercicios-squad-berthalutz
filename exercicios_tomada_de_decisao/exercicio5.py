@@ -7,6 +7,7 @@ escaleno: todos os lados com medidas distintas.
 
 Responsável: Raissa Carneiro Castro
 '''
+
 lado_1 = int(input("Digite o primeiro lado do triângulo:"))
 lado_2 = int(input("Digite o segundo lado do triângulo:"))
 lado_3 = int(input("Digite o terceiro lado do triângulo:"))

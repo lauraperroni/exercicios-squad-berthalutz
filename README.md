@@ -2,6 +2,13 @@
 
 Este repositório contém todos os exercícios de python da semana 4 resolvidos pelo squad Bertha Lutz, composto por: 
 
+
+|Laura Perroni| Adriana Cristina | Mariana Choratto| Erika Alves |
+|---|---|---|---|
+|<img src="img/laura.jpg" height="100" width="100">|<img src="img/adriana.jpg" height="100" width="100">|<img src="img/mariana.jpg" height="100" width="100">|<img src="img/erika.jpg" height="100" width="100">|
+
+
+#### Nomes completos:
 * Laura Perroni Quadros da Silva 
 * Adriana Cristina Ferraresi
 * Carme Fernandes 
@@ -13,6 +20,7 @@ Este repositório contém todos os exercícios de python da semana 4 resolvidos 
 * Raissa Carneiro Castro
 * Leidejane Da Silva Nascimento Da Rosa
 * Gabriela Sampaio Da Silva
+
 
 ## Método de trabalho
 

@@ -2,6 +2,7 @@
 Faça um Programa que peça a quantidade de quilômetros, transforme
 em metros, centímetros e milímetros.
 
+Responsável: Elizabeth
 '''
 nroKM = float(input('Digite um valor em km: '))
 

@@ -5,6 +5,8 @@ Levando em consideração:
 ● avião = 600 km/h
 ● carro = 100 km/h
 ● ônibus = 80 km/h
+
+Responsável: Leidejane
 '''
 
 
