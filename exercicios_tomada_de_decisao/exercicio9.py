@@ -8,14 +8,20 @@ Responsável: Laura Perroni Quadros da Silva
 '''
 
 numero = int(input('Digite um número: '))
+pares = 0
+impares = 0
 
-if numero < 0 :
-    print('Este número não é positivo.')
-else:    
-    while numero != 0 :
-    
-        if numero % 2 == 0 :
-            print('É um número par')
-        else :
-            print('É um número ímpar')
+if numero == 0 :
+    while numero == 0 :
+        print('Você precisa digitar um número inteiro maior que zero para começar a contagem')
         numero = int(input('Digite um número: '))
+
+while numero != 0 :
+    if numero % 2 == 0 :
+        print('É um número par')
+        pares += 1
+    else :
+        print('É um número ímpar')
+        impares += 1
+    numero = int(input('Digite um número: '))
+print(f'Pares = {pares}, Ímpares = {impares}')
