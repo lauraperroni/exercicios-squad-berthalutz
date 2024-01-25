@@ -9,4 +9,6 @@ Dólar Canadense: R$ 3,64
 Franco Suiço: R$ 0,42
 Euro: R$ 5,36
 Libra esterlina: R$ 6,21
+
+Responsável: Carme
 '''

@@ -6,6 +6,7 @@ reprovado.
 
 Responsável: Gabriela Sampaio da Silva
 '''
+
 print('Programa de classificação de notas.')
 print('\n')
 
