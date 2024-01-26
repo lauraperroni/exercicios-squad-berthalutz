@@ -7,25 +7,28 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 |---|---|---|---|---|---|
 |<img src="img/laura.jpg" height="100" width="100">|<img src="img/adriana.jpg" height="100" width="100">|<img src="img/mariana.jpg" height="100" width="100">|<img src="img/erika.jpg" height="100" width="100">|<img src="img/raissa.jpeg" height="100" width="100">| <img src="img/claudia.jpg" height="100" width="100">|
 
+|Vivian Rosana| Leidejane da Silva |  Gabriela Sampaio | Elizabeth Pereira | Carme Fernandes |
+|---|---|---|---|---|
+|<img src="img/vivian.jpeg" height="100" width="100">|<img src="img/leidejane.png" height="100" width="100">|<img src="img/gabriela.jpg" height="100" width="100">|<img src="img/elizabeth.jpg" height="100" width="100">|<img src="img/carme.PNG" height="100" width="100">|
 
 #### Nomes completos:
-* Laura Perroni Quadros da Silva 
-* Adriana Cristina Ferraresi
+* Laura Perroni Quadros da Silva ok
+* Adriana Cristina Ferraresi ok
 * Carme Fernandes 
-* Elizabeth Pereira
-* Claudia Azambuja
-* Mariana Choratto
-* Vivian Rosana Carrillo Cuentas
-* Erika Alves Malaquias 
-* Raissa Carneiro Castro
-* Leidejane Da Silva Nascimento Da Rosa
-* Gabriela Sampaio Da Silva
+* Elizabeth Pereira 
+* Claudia Azambuja ok
+* Mariana Choratto ok
+* Vivian Rosana Carrillo Cuentas ok
+* Erika Alves Malaquias  ok
+* Raissa Carneiro Castro ok
+* Leidejane Da Silva Nascimento Da Rosa ok
+* Gabriela Sampaio Da Silva ok
 
 
 ## Método de trabalho
 
 **17/01/24**
- 
+* Fizemos reuniões de revisão das atividades de vez em quando, e nos ajudamos em exercícios específicos
 * Utilizamos o nosso canal de texto no Discord para iniciarmos a conversa sobre este repositório.
 * Decidimos que cada uma escolheria um exercício para fazer e fizemos um tutorial para nos ajudar a melhor trabalhar: 
     
