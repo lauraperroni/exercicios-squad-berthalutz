@@ -11,8 +11,8 @@ def contar_vogais(frase):
     # Inicializa o contador de vogais
     total_vogais = 0
 
-    # Lista de vogais para verificar se um caractere é uma vogal
-    vogais = "aeiouAEIOU"
+    # Lista de vogais com e sem acento para verificar se um caractere é uma vogal 
+    vogais = "aeiouAEIOUáéíóúÁÉÍÓÚãõÃÕâêîôûÂÊÎÔÛàèìòùÀÈÌÒÙäëïöüÄËÏÖÜ"
 
     # Itera sobre cada caractere na frase
     for char in frase:
