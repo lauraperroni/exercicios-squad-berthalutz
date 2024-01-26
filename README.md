@@ -3,9 +3,9 @@
 Este repositório contém todos os exercícios de python da semana 3 resolvidos pelo squad Bertha Lutz, composto por: 
 
 
-|Laura Perroni| Adriana Cristina | Mariana Choratto| Erika Alves | Raissa Carneiro |
-|---|---|---|---|---|
-|<img src="img/laura.jpg" height="100" width="100">|<img src="img/adriana.jpg" height="100" width="100">|<img src="img/mariana.jpg" height="100" width="100">|<img src="img/erika.jpg" height="100" width="100">|<img src="img/raissa.jpeg" height="100" width="100">|
+|Laura Perroni| Adriana Cristina | Mariana Choratto| Erika Alves | Raissa Carneiro | Claudia Azambuja |
+|---|---|---|---|---|---|
+|<img src="img/laura.jpg" height="100" width="100">|<img src="img/adriana.jpg" height="100" width="100">|<img src="img/mariana.jpg" height="100" width="100">|<img src="img/erika.jpg" height="100" width="100">|<img src="img/raissa.jpeg" height="100" width="100">| <img src="img/claudia.jpg" height="100" width="100">|
 
 
 #### Nomes completos:
