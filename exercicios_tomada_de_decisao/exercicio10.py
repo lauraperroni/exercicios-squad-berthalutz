@@ -4,6 +4,7 @@ crescente.
 
 Responsável: Erika Alves Malaquias Silva
 '''
+
 n1 = int(input("Insira o primerio número:"))
 n2 = int(input("insira o segundo número: "))
 n3 = int(input("insira o terceiro número: "))

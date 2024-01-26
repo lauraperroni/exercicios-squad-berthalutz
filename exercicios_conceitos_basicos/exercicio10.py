@@ -6,8 +6,10 @@ Exemplo de retorno: Olá Maria, prazer te conhecer. Sou de São Paulo
 também e estou migrando de área.
 Lembrando que para o retorno vamos usar print com as variáveis
 criadas e este texto é somente um exemplo, utilizem a criatividade.
+
 Responsavel : Vivian Rosana Carrillo Cuentas 
 '''
+
 nome= input('Digite seu nome ')
 idade=input('Digite sua idade ')
 cidade=input('Digite a sua cidade  ')
