@@ -27,9 +27,10 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 
 ## Método de trabalho
 
-**17/01/24**
 * Fizemos reuniões de revisão das atividades de vez em quando, e nos ajudamos em exercícios específicos
-* Utilizamos o nosso canal de texto no Discord para iniciarmos a conversa sobre este repositório.
+* Utilizamos o nosso canal de texto no Discord para iniciarmos a conversa sobre este repositório, e toda a comunicação foi feita lá.
+*  Decidimos nos ajudar como equipe e cobrir para nossas colegas que não conseguirem fazer tudo que lhes foi delegado mas que comunicaram-se conosco e tentaram fazer sua parte, pois somos um time e devemos nos ajudar sempre :)
+* Cada arquivo .py contém a proposta da atividade e a aluna responsável pela resolução, organizamos por semana e módulo
 * Decidimos que cada uma escolheria um exercício para fazer e fizemos um tutorial para nos ajudar a melhor trabalhar: 
     
     Passo-a-passo:
@@ -39,11 +40,11 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
     * Fazer as atividades combinadas entre nós em seu computador;
     * Cuidado! Antes de fazer git add, commit e push verifique se você está na branch ExerciciosPython_SquadBerthaLutz !!! se não, use: (git checkout ExerciciosPython_SquadBerthaLutz);
     * Após fazer git push pro seu fork, crie uma pull request para o repositório que a Laura criou e a mesma irá fazer o merge para ele com as alterações. 🙂
-* Cada arquivo .py contém a proposta da atividade e a aluna responsável pela resolução.
 
-### Divisão de tarefas:
 
-#### Divisão de atividades**
+### Divisão de tarefas entre a Squad:
+
+#### Divisão de atividades da Semana 3**
 
 **Exercicios do modulo 1- conceitos basicos:**
 * Exercicio 1 - Carme
@@ -85,5 +86,5 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 * Exercicio 5 - Adriana
 * Exercicio 6- Laura
 
+#### Divisão de atividades da Semana 4**
 
-OBS: quando forem escolher os exercícios de vocês copiem essa lista e adicionem o nome aí essa lista estará sempre atualizada
