@@ -93,10 +93,9 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 ## OOP
  (Utilizar a branch: ExerciciosPOO_SquadBerthaLutz)
 ### Exercício Classes e Objetos 
-* Exercício 1 = Elizabeth Pereira, Laura Perroni, 
-* Exercício 2 =
+* Exercício Mercado = Elizabeth Pereira, Laura Perroni, 
+
 
 ## Banco de Dados
 ### (Utilizar a branch: ExerciciosBancoDeDados_SquadBerthaLutz)
-* Exercício 1 = Elizabeth Pereira, Laura Perroni
-* Exercício 2 = Leidejane da Rosa, 
+* Exercício Mercado = Elizabeth Pereira, Laura PerroniLeidejane da Rosa, 
