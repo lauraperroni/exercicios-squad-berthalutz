@@ -1,1 +1,0 @@
--- Arquivo para anotações posteriores, podem ignorar por hora gurias!
