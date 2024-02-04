@@ -42,7 +42,7 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
     * Após fazer git push pro seu fork, crie uma pull request para o repositório que a Laura criou e a mesma irá fazer o merge para ele com as alterações. 🙂
 
 
-### Divisão de tarefas entre a Squad:
+### Divisão de tarefas entre a Squad =================================================================
 
 #### Divisão de atividades da Semana 3**
 
@@ -88,3 +88,14 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 
 #### Divisão de atividades da Semana 4**
 
+# Exercícios da semana 4
+
+## OOP
+ (Utilizar a branch: ExerciciosPOO_SquadBerthaLutz)
+### Exercício Classes e Objetos 
+* Exercício Mercado = Elizabeth Pereira, Laura Perroni, 
+
+
+## Banco de Dados
+### (Utilizar a branch: ExerciciosBancoDeDados_SquadBerthaLutz)
+* Exercício Mercado = Elizabeth Pereira, Laura PerroniLeidejane da Rosa, 
