@@ -1,4 +1,4 @@
-# Exercícios Resolvidos pelo Squad Bertha Lutz
+# Exercícios Resolvidos pelo Squad Bertha Lutz :)
 
 Este repositório contém todos os exercícios de python da semana 3 resolvidos pelo squad Bertha Lutz, composto por: 
 
