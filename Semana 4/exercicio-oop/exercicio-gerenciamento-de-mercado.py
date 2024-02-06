@@ -198,4 +198,5 @@ endereco_cliente = input('Digite o endereço do cliente:   ')
 id_cliente = int(input('Digite o ID do cliente: '))
 clientes.append(Cliente(nome_cliente, telefone_cliente, endereco_cliente, id_cliente))
 
+#oi 2
 
