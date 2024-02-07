@@ -24,6 +24,8 @@ Responsáveis:
 '''
 # ---------------------------------------------------------------------
 
+from datetime import datetime 
+
 # Criando a classe Cliente
 class Cliente:
     #Construtor da classe cliente
@@ -138,10 +140,54 @@ class Fornecedor:
     def telefone_fornecedorGet(self):
         return self.telefone_fornecedor
 
-    def telefone_fornecedorGet(self, telefone_fornecedor):
+    def telefone_fornecedorSet(self, telefone_fornecedor):
         self.telefone_fornecedor = telefone_fornecedor
 
-# ---------------------------------------------------------------------
+# ------------------------------------------------------------------
+  
+   # criando  a classe Transacao
+class Transacao:
+    #Fazendo o constructor
+    def __init__(self, nome_produto, nome_cliente, qnt_disponivel):
+        self.nome_produto = nome_produto
+        self.nome_cliente = nome_cliente
+        self.qnt_disponivel = qnt_disponivel
+        self.data = datetime.now()
+        
+     
+ # ------------------------------------------------------------------     
+      # Criando Getters e setters para os atributos da transação
+       
+  
+    def nome_produtoGet(self):
+       return self.nome_produto
+    
+    def nome_produtoSet(self, nome_produto):
+        self.nome_produto = nome_produto
+    
+    #cliente------------------------------------------------------------------
+        
+    def nome_clienteGet(self):
+        return self.nome_cliente
+    
+    def nome_clienteSet(self,nome_cliente):
+        self.nome_cliente = nome_cliente
+
+    #qnt-disponivel ------------------------------------------------------------------
+        
+    def qnt_disponivelGet(self):
+        return self.qnt_disponivel
+    
+    def qnt_disponivelSet(self, qnt_disponivel):
+        self.qnt_disponivel =  qnt_disponivel
+    # data  ------------------------------------------------------------------
+    def dataGet(self):
+        return self.data
+    
+    def dataSet(self,data):
+        self.data = datetime.now()
+
+
 
 
 print('Bem vindo ao mercado!')
@@ -153,3 +199,4 @@ id_cliente = int(input('Digite o ID do cliente: '))
 clientes.append(Cliente(nome_cliente, telefone_cliente, endereco_cliente, id_cliente))
 
 #oi 2
+
