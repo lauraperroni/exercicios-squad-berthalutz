@@ -73,10 +73,10 @@ class Cliente:
 # Criando a classe Produto
 class Produto:
     # Fazendo Construtor
-    def __init__(self, nome_produto, categorias, qnt_disponivel):
+    def __init__(self, nome_produto, categorias):
         self.nome_produto = nome_produto,
-        self.categorias = categorias
-        self.qnt_disponivel = qnt_disponivel
+        self.categorias = categorias  # não seria uma lista vazia? 
+        self.qnt_disponivel = 100
 
     # Fazendo função de diminuir o estoque
     def _DiminuirEstoque_(self, quantidade_diminuida):
