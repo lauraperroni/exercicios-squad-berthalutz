@@ -22,12 +22,16 @@ envolvido e quantidade de produtos comprados.
 Responsáveis: 
 
 '''
-# ---------------------------------------------------------------------
+
+import sqlite3 
+
+conexao = sqlite3.connect('mercado')
+cursor = conexao.cursor()
 
 # Criando a classe Cliente
 class Cliente:
     #Construtor da classe cliente
-    def __init__(self, nome_cliente, id_cliente, telefone_cliente, endereco_cliente):
+    def __init__(self,id_cliente, nome_cliente, telefone_cliente, endereco_cliente):
         self.nome_cliente = nome_cliente
         self.id_cliente = id_cliente
         self.telefone_cliente = telefone_cliente
@@ -44,7 +48,7 @@ class Cliente:
 
     # ID ----------------------------------------------
     def id_clienteGet(self):
-        return self.nome_cliente
+        return self.id_cliente
 
     def id_clienteSet(self, id_cliente):
         self.id_cliente = id_cliente
@@ -53,7 +57,7 @@ class Cliente:
     def telefone_clienteGet(self):
         return self.telefone_cliente
 
-    def telefone_clienteGet(self, telefone_cliente):
+    def telefone_clienteSet(self, telefone_cliente):
         self.telefone_cliente = telefone_cliente
 
     # Endereço ----------------------------------------
@@ -65,22 +69,33 @@ class Cliente:
 
     # Criando a função STR
     def __str__(self):
-        return f'Cliente {nome_cliente}, de ID {id_cliente}, telefone {telefone_cliente} e endereço {endereco_cliente}'
+        return f'Cliente {self.nome_clienteGet()}, de ID {self.id_clienteGet()}, telefone {self.telefone_clienteGet()} e endereço {self.endereco_clienteGet()}'
 
-# ---------------------------------------------------------------------
-        
+    # Criando função para retornar a lista clientes 
+    def __repr__(self):
+        return f'Cliente {self.nome_clienteGet()}, de ID {self.id_clienteGet()}, telefone {self.telefone_clienteGet()} e endereço {self.endereco_clienteGet()}'
 
+#-----------------------------------------
 # Criando a classe Produto
 class Produto:
     # Fazendo Construtor
-    def __init__(self, nome_produto, categorias):
+    def __init__(self, id_produto, nome_produto, categorias, qnt_disponivel, id_fornecedor):
+        self.id_produto = id_produto,
         self.nome_produto = nome_produto,
-        self.categorias = categorias  # não seria uma lista vazia? 
-        self.qnt_disponivel = 100
+        self.categorias = categorias 
+        self.qnt_disponivel = qnt_disponivel
+        dados = cursor.execute(f"SELECT * FROM fornecedores WHERE id={id_fornecedor}")
+        fornecedor_fetch = dados.fetchone()
+        self.fornecedor = Fornecedor(fornecedor_fetch[0], fornecedor_fetch[1], fornecedor_fetch[2], fornecedor_fetch[3])
 
     # Fazendo função de diminuir o estoque
-    def _DiminuirEstoque_(self, quantidade_diminuida):
-        self.qnt_disponivel = self.qnt_disponivel - quantidade_diminuida
+    def diminuirEstoque(self, qtd):
+        if (qtd > self.qnt_disponivel):
+            print(f"Não há essa quantidade do produto disponível. O estoque atual é de {self.qnt_disponivel}. Tente novamente")
+        else:
+            self.qnt_disponivel -= qtd
+            cursor.execute(f'UPDATE produtos SET quantidade={self.qnt_disponivel} WHERE id={self.id_produto[0]}')
+            print("Produto comprado com sucesso!")
 
     # Criando Getters e Setters do Produto
         
@@ -102,21 +117,27 @@ class Produto:
     def qnt_disponivelGet(self):
         return self.qnt_disponivel
 
+        #O que essa função faz? 
     def qnt_disponivelGet(self, qnt_disponivel):
         self.qnt_disponivel = qnt_disponivel
-    
 
-# ---------------------------------------------------------------------
+    # Criando a função STR
+    def __str__(self):
+        return f'O produto de ID {self.id_produto} é {self.nome_produto}, está na categoria {self.categorias}. Seu estoque atualmente é de {self.qnt_disponivel}'
 
+    #Criando funções para retornar as características do produto
+    def __repr__(self):
+        return f'O produto de ID {self.id_produto} é {self.nome_produto}, está na categoria {self.categorias}. Seu estoque atualmente é de {self.qnt_disponivel}'
+# --------------------------------------------------------------------
 
 # Criando a classe Fornecedor
 class Fornecedor:
-    # Fazendo o Contrutor
-    def __init__(self, nome_fornecedor, endereco_fornecedor, telefone_fornecedor):
+    # Fazendo o Construtor
+    def __init__(self, id_fornecedor, nome_fornecedor, endereco_fornecedor, telefone_fornecedor):
         self.nome_fornecedor = nome_fornecedor
         self.endereco_fornecedor = endereco_fornecedor
         self.telefone_fornecedor = telefone_fornecedor
-
+        self.id_fornecedor = id_fornecedor
 
     # Criando Getters e Setters do Fornecedor
 
@@ -140,16 +161,3 @@ class Fornecedor:
 
     def telefone_fornecedorGet(self, telefone_fornecedor):
         self.telefone_fornecedor = telefone_fornecedor
-
-# ---------------------------------------------------------------------
-
-
-print('Bem vindo ao mercado!')
-clientes = []
-nome_cliente = input('Digite o nome do cliente:   ')
-telefone_cliente = int(input('Digite o telefone do cliente:   '))
-endereco_cliente = input('Digite o endereço do cliente:   ')
-id_cliente = int(input('Digite o ID do cliente: '))
-clientes.append(Cliente(nome_cliente, telefone_cliente, endereco_cliente, id_cliente))
-
-#oi 2
