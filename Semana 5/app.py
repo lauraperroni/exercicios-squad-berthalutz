@@ -48,5 +48,39 @@ def get_list_elements():
     except Exception as e:
         return {"error": str(e)}
 
+@app.route('/locations')
+def get_locations():
+    url = 'https://rickandmortyapi.com/api/location'
+    response = urllib.request.urlopen(url)
+    data = response.read()
+    location_data = json.loads(data)
+
+    locations = []
+    for item in location_data['results']:
+        locations.append({
+            'name': item['name'],
+            'type': item['type'],
+            'dimension': item['dimension']
+            })
+
+    return {'dicionario' : locations}
+
+
+@app.route('/locations/<id>')
+def locations(id):
+    url = f'https://rickandmortyapi.com/api/location/{id}'
+    response = urllib.request.urlopen(url)
+    data = response.read()
+    location_data = json.loads(data)
+
+    location = {
+        'name': location_data['name'],
+        'type': location_data['type'],
+        'dimension': location_data['dimension']
+    }
+
+    return render_template("dimension.html", dicionario = location)
+
+
 if __name__ == '__main__':
     app.run(debug=True)
