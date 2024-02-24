@@ -14,7 +14,6 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 #### Nomes completos:
 * Laura Perroni Quadros da Silva ok
 * Adriana Cristina Ferraresi ok
-* Carme Fernandes 
 * Elizabeth Pereira 
 * Claudia Azambuja ok
 * Mariana Choratto ok
@@ -23,6 +22,9 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 * Raissa Carneiro Castro ok
 * Leidejane Da Silva Nascimento Da Rosa ok
 * Gabriela Sampaio Da Silva ok
+
+#### Desistencias:
+* Carme Fernandes = por conta da rotina e mudança de objetivos de carreira.
 
 
 ## Método de trabalho
@@ -41,8 +43,9 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
     * Cuidado! Antes de fazer git add, commit e push verifique se você está na branch ExerciciosPython_SquadBerthaLutz !!! se não, use: (git checkout ExerciciosPython_SquadBerthaLutz);
     * Após fazer git push pro seu fork, crie uma pull request para o repositório que a Laura criou e a mesma irá fazer o merge para ele com as alterações. 🙂
 
-
-### Divisão de tarefas entre a Squad =================================================================
+---
+# Divisão de tarefas entre a Squad
+---
 
 #### Divisão de atividades da Semana 3**
 
@@ -87,15 +90,36 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 * Exercicio 6- Laura
 
 #### Divisão de atividades da Semana 4**
-
+---
 # Exercícios da semana 4
-
+A entrega deverá ser feita no formulário recebido, até às 19h do dia 15/02/2024.
 ## OOP
- (Utilizar a branch: ExerciciosPOO_SquadBerthaLutz)
+(Utilizar a branch: ExerciciosPOO_SquadBerthaLutz)
 ### Exercício Classes e Objetos 
-* Exercício Mercado = Elizabeth Pereira, Laura Perroni, 
-
+* Elizabeth Pereira, Laura Perroni, 
 
 ## Banco de Dados
-### (Utilizar a branch: ExerciciosBancoDeDados_SquadBerthaLutz)
-* Exercício Mercado = Elizabeth Pereira, Laura PerroniLeidejane da Rosa, 
+(Utilizar a branch: ExerciciosBancoDeDados_SquadBerthaLutz)
+### Exercício Mercado
+* Elizabeth Pereira, Laura Perroni, Leidejane da Rosa, 
+
+---
+
+# Exercícios da semana 5
+A entrega deverá ser feita no formulário recebido, até às 19h do dia 01/03/2024.
+## APIs
+### Página de personagens:
+* Elizabeth 
+* Adriana
+### Página de dimensões:
+* Mariana
+* Raissa
+* Leidejane
+### Página de episódios:
+* Gabriela 
+* Laura
+### Melhorar design:
+* Laura
+
+---
+
