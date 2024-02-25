@@ -1,0 +1,23 @@
+<!-- Preciso informar ao back-end que essa página é filha de layout -->
+<!-- Para isso eu vou uxar a função extends(). Ela vai herdar os componentes da página pai -->
+{% extends "layout.html" %}
+
+
+{% block content %}
+    <div class="row"> 
+            
+            <div class="d-flex flex-column justify-content-center align-items-center ">
+                <img src="{{profile.image}}" alt="" class="img-fluid img-thumbnail">
+                
+                
+                <h3 class="h5">Nome: {{profile.name}}</h3>
+                <h3 class="h5">Status: {{profile.status}}</h3>
+                <h3 class="h5">Espécie: {{profile.species}}</h3>
+                <h3 class="h5">Gênero: {{profile.gender}}</h3>
+                <h3 class="h5">Local de Origem: <a href="{{profile.origin}}">{{profile.origin}}</a></h3>
+                <h3 class="h5">Localização atual: <a href="{{profile.location}}">{{profile.location}}</a></h3>
+                
+            </div>
+    </div>
+{% endblock %}
+

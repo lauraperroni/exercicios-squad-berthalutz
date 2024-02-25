@@ -1,0 +1,21 @@
+body{
+    background-color: #448b32;
+    color: #F6F9F3;
+}
+
+a{color: #36445C;}
+
+/* Botão */
+.btn-primary{
+    background-color: #36445cde;
+    border: #36445C;
+    color: #F6F9F3;
+    --bs-btn-hover-bg: #c6df56;
+}
+
+/* Navbar */
+.bg-body-tertiary{
+    background-color: #F6F9F3!important;
+
+}
+/* #c6df56; #F6F96B; #36445C*/
