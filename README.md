@@ -32,6 +32,7 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 *  Decidimos nos ajudar como equipe e cobrir para nossas colegas que não conseguirem fazer tudo que lhes foi delegado mas que comunicaram-se conosco e tentaram fazer sua parte, pois somos um time e devemos nos ajudar sempre :)
 * Cada arquivo .py contém a proposta da atividade e a aluna responsável pela resolução, organizamos por semana e módulo
 * Decidimos que cada uma escolheria um exercício para fazer e fizemos um tutorial para nos ajudar a melhor trabalhar: 
+* Também trabalhamos em Call no Discord algumas vezes.
     
     Passo-a-passo:
 
@@ -99,3 +100,22 @@ Este repositório contém todos os exercícios de python da semana 3 resolvidos 
 ## Banco de Dados
 ### (Utilizar a branch: ExerciciosBancoDeDados_SquadBerthaLutz)
 * Exercício Mercado = Elizabeth Pereira, Laura PerroniLeidejane da Rosa, 
+
+
+# Exercícios da semana 5 
+
+## API Rick and Morty
+ (Utilizar a branch: ExerciciosBerthaLutz_APIS)
+
+### Página de personagens: 
+Elizabeth 
+Adriana
+### Página de dimensões: 
+Mariana
+Raissa
+Leidejane
+### Página de episódios: 
+Gabriela 
+Laura
+### Melhorar design:
+Laura

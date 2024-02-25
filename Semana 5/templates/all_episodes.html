@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="row"> 
+        {% for item in episodes %}
+        <div class="col-sm-3 col-6 d-flex flex-column justify-content-between">
+            <h3 class="h5">{{item.name}}</h3>
+            <p>
+                <a href="/episode/{{item.id}}" class="btn btn-primary">Ver Episódio</a>
+            </p>
+        </div>
+        {% endfor %} 
+    </div>
+{% endblock %}
