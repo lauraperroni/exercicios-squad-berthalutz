@@ -7,15 +7,13 @@ import urllib.request, json
 #esse app é uma instância
 app = Flask(__name__)
 
-#3- criar rota: @app.route("/")
-# Esse decorator informa ao flask qual URL vai ser acionada. When a user navigates to the root URL (/), Flask will execute the function immediately below the decorator and return the result to the user's browser.
-#@: This symbol indicates that app.route() is a decorator, which is a special kind of function that modifies the behavior of another function without changing its source code.
-#para criar um servidor local 
 
 
 # ======================================== PERSONAGENS ========================================
 
 # all characters  ------------------------------------------------
+
+#3- criar rota: @app.route("/")
 @app.route("/") #simbolo de página inicial  # Estamos criando o caminho da URL!!!!!!!!
 def get_list_characters_page():
     url = 'https://rickandmortyapi.com/api/character/'
@@ -149,9 +147,6 @@ def get_locations():
 
 
 
-
-
-
 # ======================================== EPISÓDIOS ========================================
 
 # all episodes  ------------------------------------------------
@@ -176,24 +171,15 @@ def get_episode(id):
     response = urllib.request.urlopen(url)
     data = response.read()
     episode_data = json.loads(data) #atributo da variável
+    data = episode_data.get("characters", {})
+    print(data)
     episode_profile = {
         'id': episode_data['id'],
-        'name': episode_data['name']
+        'name': episode_data['name'],
+        'air_data': episode_data['air_date'],
+        'personagens': data
     }
     return render_template("episode.html", episode = episode_profile ) #retorna um HTML. 2º parâmetro pode ter variáveis
-
-
-# dados = {'chave': 'valor'}
-
-# @app.route('/oi')
-# def hello_world2():
-#     return {
-#         'endpoint': dados
-#     }
-
-# @app.route('/luan')
-# def hello_world3():
-#     return '<a href="/oi">Clique aqui!</a>'
 
 
 # JSON episodes ------------------------------------------------
