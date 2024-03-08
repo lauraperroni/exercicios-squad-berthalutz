@@ -5,6 +5,14 @@
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <h3 class="h5">Id: {{episode.id}}</h3>                
                 <h3 class="h5">Nome: {{episode.name}}</h3>
+                <h3 class="h5">Data de estreia: {{episode.air_data}}</h3>
+                <h3 class="h5">Personagens:</h3>
+
+                {% for item in episode.personagens %}
+                <p>{{item[0]}}</p>   
+                <img class="mb-3" src="{{item[1]}}" alt="">    
+                {% endfor %}
+
             </div>
     </div>
 {% endblock %}

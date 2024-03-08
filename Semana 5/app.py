@@ -1,22 +1,15 @@
-#1- importar o flask para a sua página
 from flask import Flask, render_template 
-
 import urllib.request, json
-
-#2- criar uma variável com a classe Flask(__name__). Essa variável vai trazer o flask para o seu código 
-#esse app é uma instância
 app = Flask(__name__)
 
-#3- criar rota: @app.route("/")
-# Esse decorator informa ao flask qual URL vai ser acionada. When a user navigates to the root URL (/), Flask will execute the function immediately below the decorator and return the result to the user's browser.
-#@: This symbol indicates that app.route() is a decorator, which is a special kind of function that modifies the behavior of another function without changing its source code.
-#para criar um servidor local 
 
 
 # ======================================== PERSONAGENS ========================================
 
 # all characters  ------------------------------------------------
-@app.route("/") #simbolo de página inicial  # Estamos criando o caminho da URL!!!!!!!!
+
+#3- criar rota: @app.route("/")
+@app.route("/") 
 def get_list_characters_page():
     url = 'https://rickandmortyapi.com/api/character/'
     # abrir a reponse
@@ -26,12 +19,12 @@ def get_list_characters_page():
     #variavel que formata para json
     dict = json.loads(data)
 
-    return render_template("characters.html", characters=dict['results'] ) #retorna um HTML. 2º parâmetro pode ter variáveis
+    return render_template("characters.html", characters=dict['results'] )
 
 
 # characters especifico ------------------------------------------------
 
-@app.route("/profile/<id>")  #<> é o simbolo do flask para uma variável. Eu vou passar o valor de id 
+@app.route("/profile/<id>")  
 def get_profile(id):
     url = 'https://rickandmortyapi.com/api/character/' + id
     response = urllib.request.urlopen(url)
@@ -46,20 +39,7 @@ def get_profile(id):
         'location': character_data['location']['name'], 
         'image': character_data['image']
     }
-    return render_template("profile.html", profile= character_profile ) #retorna um HTML. 2º parâmetro pode ter variáveis
-
-
-# dados = {'chave': 'valor'}
-
-# @app.route('/oi')
-# def hello_world2():
-#     return {
-#         'endpoint': dados
-#     }
-
-# @app.route('/luan')
-# def hello_world3():
-#     return '<a href="/oi">Clique aqui!</a>'
+    return render_template("profile.html", profile= character_profile ) 
 
 
 # JSON characters ------------------------------------------------
@@ -86,19 +66,11 @@ def get_list_characters():
             })
     return {'personagens': characters}
 
-    # for character in dict['results']:
-    #     character =  {
-    #     'name': character['name'],
-    #     'status': character['status']
-    #     }  
-
-    #     characters.append(character)
-    # return {'characters': characters}
 
 
 # ======================================== LOCALIZAÇÕES ========================================
 
-@app.route("/all_dimensions") #simbolo de página inicial  # Estamos criando o caminho da URL!!!!!!!!
+@app.route("/all_dimensions") 
 def get_dimensions():
     url = 'https://rickandmortyapi.com/api/location/'
     # abrir a reponse
@@ -108,8 +80,7 @@ def get_dimensions():
     #variavel que formata para json
     dict = json.loads(data)
 
-    return render_template("all_dimensions.html", dimensions=dict['results'] ) #retorna um HTML. 2º parâmetro pode ter variáveis
-
+    return render_template("all_dimensions.html", dimensions=dict['results'] ) 
 
 
 # locations especifico ------------------------------------------------
@@ -149,13 +120,10 @@ def get_locations():
 
 
 
-
-
-
 # ======================================== EPISÓDIOS ========================================
 
 # all episodes  ------------------------------------------------
-@app.route("/all_episodes") #simbolo de página inicial  # Estamos criando o caminho da URL!!!!!!!!
+@app.route("/all_episodes") 
 def get_episodes():
     url = 'https://rickandmortyapi.com/api/episode/'
     # abrir a reponse
@@ -165,42 +133,44 @@ def get_episodes():
     #variavel que formata para json
     dict = json.loads(data)
 
-    return render_template("all_episodes.html", episodes=dict['results'] ) #retorna um HTML. 2º parâmetro pode ter variáveis
+    return render_template("all_episodes.html", episodes=dict['results'] ) 
 
 
 # episode especifico ------------------------------------------------
 
-@app.route("/episode/<id>")  #<> é o simbolo do flask para uma variável. Eu vou passar o valor de id 
+@app.route("/episode/<id>")  
 def get_episode(id):
     url = 'https://rickandmortyapi.com/api/episode/' + id
     response = urllib.request.urlopen(url)
     data = response.read()
-    episode_data = json.loads(data) #atributo da variável
+    episode_data = json.loads(data)
+
+    # Fazendo o get de cada personagem
+    data = episode_data["characters"]
+    complete_data = []
+    for item in data: 
+        # Em cada volta --> O item vai ser o valor DO LINK (URL) de um personagem
+
+        url_personagem = item 
+        response_personagem = urllib.request.urlopen(url_personagem)
+        data_personagem = response_personagem.read()
+        personagem = json.loads(data_personagem) 
+        complete_data.append([personagem['name'], personagem['image']])
+
+    #Pegando os atributos do episódio 
     episode_profile = {
         'id': episode_data['id'],
-        'name': episode_data['name']
+        'name': episode_data['name'],
+        'air_data': episode_data['air_date'],
+        'personagens': complete_data
     }
-    return render_template("episode.html", episode = episode_profile ) #retorna um HTML. 2º parâmetro pode ter variáveis
-
-
-# dados = {'chave': 'valor'}
-
-# @app.route('/oi')
-# def hello_world2():
-#     return {
-#         'endpoint': dados
-#     }
-
-# @app.route('/luan')
-# def hello_world3():
-#     return '<a href="/oi">Clique aqui!</a>'
+    return render_template("episode.html", episode = episode_profile )
 
 
 # JSON episodes ------------------------------------------------
 @app.route("/lista_ep") 
 def get_list_episodes():
 
-    # criar variavel para receber o link da API (endpoint):
     url = 'https://rickandmortyapi.com/api/episode/'
     response = urllib.request.urlopen(url)
     episodes = response.read()
@@ -208,7 +178,6 @@ def get_list_episodes():
 
     episodes = []
 
-    # modo mais fácil
     for item in dict['results']:
         episodes.append({
             'id': item['id'],
@@ -216,12 +185,4 @@ def get_list_episodes():
             })
     return {'personagens': episodes}
 
-    # for character in dict['results']:
-    #     character =  {
-    #     'name': character['name'],
-    #     'status': character['status']
-    #     }  
-
-    #     characters.append(character)
-    # return {'characters': characters}
 
