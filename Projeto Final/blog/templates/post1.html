@@ -1,0 +1,46 @@
+{% extends "index.html" %}
+<!-- {% load bootstrap5 %}
+{% load crispy_forms_tags %}
+{% bootstrap_css %} -->
+{% block principal %}
+
+    <div class="div-dos-posts">
+        <h2 class="titulo">{{posts.titulo}}</h2><br>
+        <h4 class="nota">Nota do livro: {{posts.nota}}</h4><br>
+
+        <p class="data-publicacao">Data de Publicação: {{posts.date}}</p>
+        <p class="autor">Autor: {{posts.autor}}</p><br>
+
+        <h3>Resenha:</h3>
+        <p class="content">{{posts.content}}</p><br><br>
+    </div>
+
+    <div class="div-dos-comentarios">
+    <div class="div-dos-comentarios">
+        <h3>Deixe seu comentário aqui: </h3>
+        <form action="{% url 'enviar2' %}" method="POST" id="form">
+
+            {% csrf_token %}
+
+            {% for field in form.visible_fields %}
+            <p>{{field.label}}</p> 
+            <div>{{field}}</div>
+
+            {% endfor %}
+
+            {% if sucesso %}
+            <p class="alert alert-success">Cadastro efetuado com sucesso! </p>
+            {% endif %}
+
+            <button type="submit" class="btn btn-primary btn-block">Enviar comentário</button>
+        </form>
+    </div>
+
+       
+    
+
+    <div class="comentarios-postados">
+
+    </div>
+
+{% endblock %}
